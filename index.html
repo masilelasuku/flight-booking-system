@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Flight Booking System</title>
+    <link rel="stylesheet"
+    href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flight Booking System </h1>
+        <div class="login form">
+            <h2>Login</h2>
+            <form action="login.php"
+            method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+        </form>
+        </div>
+        <div class="search-form">
+            <h2>Search for a Flight</h2>
+            <form action="search.php" method="get">
+                <label for="from">From</label>
+                <input type="text" name="from" id="from" required>
+                <label for="to">To</label>
+                <input type="text" name="to" id="to" required>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
