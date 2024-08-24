@@ -24,40 +24,26 @@ The Flight Booking System is a web-based application that allows users to search
  Steps
 
 1. Clone the Repository
-
-   ```bash
    git clone https://github.com/your-username/flight-booking-system.git
    cd flight-booking-system
-   ```
-
+  
 2. Install Dependencies
-
-   ```bash
    npm install
-   ```
 
 3. Configure the Database
 
    - Create a `.env` file in the root directory and add your database credentials:
-   
-     ```bash
      DB_HOST=your-database-host
      DB_USER=your-database-username
      DB_PASS=your-database-password
      DB_NAME=your-database-name
-     ```
 
    - Run the migration script to set up the database schema:
-
-     ```bash
      npm run migrate
-     ```
 
 4. Start the Application
-
-   ```bash
    npm start
-   ```
+  
 
    The application should now be running at `http://localhost:FLIGHT`.
 
